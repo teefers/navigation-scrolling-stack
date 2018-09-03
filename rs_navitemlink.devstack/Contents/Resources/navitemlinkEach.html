@@ -1,0 +1,8 @@
+%[if %id=URLtype[0]% ]%
+<li id="li-%id%"  role="menuitem" class="navDefPage%id=navActive%%[if %("%id=CustClass%" != "" )% ]% %id=CustClass%%[endif]%">%id=pageAnchor%%id=displayName%</a>
+</li>
+%[else]%
+<!-- <h3>don't use this yet! <small>Under development</small></h3> -->
+<li role="menuitem" class="navSamePage%[if %("%id=CustClass%" != "" )% ]% %id=CustClass%%[endif]%" data-samePageTarget="#%id=anchorID%"><span data-samePageTarget="#%id=anchorID%">%id=displayName%</span>
+</li>
+%[endif]%

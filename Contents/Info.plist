@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.rapidstacks.navigationscrolling</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>Rapid Stacks</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>author</key>
+	<string>Rapid Stacks</string>
+	<key>copyright</key>
+	<string>Copyright @2018 Rapid Stacks</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>Colors and Stylinggroup</key>
+			<string>Colors and Styling</string>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#f1f1f1</string>
+				<string>#000000</string>
+			</array>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>itemColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Nav Item</string>
+			<key>toolTip</key>
+			<string>Select the colors for Navigation (li) items background and text.</string>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#39363d</string>
+				<string>#ffffff</string>
+			</array>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>itemHoverColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Nav Item Hover</string>
+			<key>toolTip</key>
+			<string>Select the colors for Navigation (li)  on hover background and text.</string>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>dividColor</string>
+			<key>title</key>
+			<string>Divider Color</string>
+			<key>toolTip</key>
+			<string>Apply a color for the divider. Click and choose a color.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#ffffff</string>
+				<string>#000000</string>
+			</array>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>arrowColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Arrows</string>
+			<key>toolTip</key>
+			<string>Select the colors for Arrows background and text.</string>
+			<key>trueValue</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#39363d</string>
+				<string>#ffffff</string>
+			</array>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>arrowHoverColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Arrows Hover</string>
+			<key>toolTip</key>
+			<string>Select the colors for Arrows on hover background and text.</string>
+			<key>trueValue</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>falseValue</key>
+			<false/>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>activeUL</string>
+			<key>title</key>
+			<string>Underline Active(current) Page?</string>
+			<key>toolTip</key>
+			<string>Undlerline the link if current (active) page</string>
+			<key>trueValue</key>
+			<true/>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<false/>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>activeStyle</string>
+			<key>title</key>
+			<string>Style Active?</string>
+			<key>toolTip</key>
+			<string>Undlerline the link if current (active) page</string>
+			<key>trueValue</key>
+			<true/>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#f1f1f1</string>
+				<string>#000000</string>
+			</array>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>activeStyle</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>activeColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Active Link</string>
+			<key>toolTip</key>
+			<string>Select the colors for Active (current) page background and text.</string>
+			<key>trueValue</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<array>
+				<string>#39363d</string>
+				<string>#ffffff</string>
+			</array>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>activeStyle</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>activeHoverColor</string>
+			<key>subtitles</key>
+			<array>
+				<string>Background</string>
+				<string>Text</string>
+			</array>
+			<key>title</key>
+			<string>Active Item Hover</string>
+			<key>toolTip</key>
+			<string>Select the colors for active (li)  on hover background and text.</string>
+			<key>type</key>
+			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>100</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navMinWidth</string>
+			<key>max</key>
+			<integer>160</integer>
+			<key>min</key>
+			<integer>70</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Min Width</string>
+			<key>toolTip</key>
+			<string>Enter the min Width for each navigation item.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>48</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navMaxHeight</string>
+			<key>max</key>
+			<integer>60</integer>
+			<key>min</key>
+			<integer>40</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>11</integer>
+			<key>title</key>
+			<string>Bar Height</string>
+			<key>toolTip</key>
+			<string>Enter the max height for navigation bar.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<real>1</real>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navFontSize</string>
+			<key>max</key>
+			<real>1.5</real>
+			<key>min</key>
+			<real>0.69999999999999996</real>
+			<key>round</key>
+			<false/>
+			<key>subtitles</key>
+			<array>
+				<string>Specify Font Size in rem</string>
+			</array>
+			<key>title</key>
+			<string>Font Size</string>
+			<key>toolTip</key>
+			<string>Change the Font Size</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>rem</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<false/>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navSmallScreen</string>
+			<key>title</key>
+			<string>Define and Use Small Screen?</string>
+			<key>toolTip</key>
+			<string>Specify def values for screens 576px or smaller</string>
+			<key>trueValue</key>
+			<true/>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>navSmallScreen</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>100</integer>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>navSmallScreen</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navMinWidthSm</string>
+			<key>max</key>
+			<integer>160</integer>
+			<key>min</key>
+			<integer>70</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Min Width</string>
+			<key>toolTip</key>
+			<string>Enter the min Width for each navigation item.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>48</integer>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>navSmallScreen</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navMaxHeightSm</string>
+			<key>max</key>
+			<integer>60</integer>
+			<key>min</key>
+			<integer>40</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>11</integer>
+			<key>title</key>
+			<string>Bar Height</string>
+			<key>toolTip</key>
+			<string>Enter the max height for navigation bar.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<real>1</real>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>navSmallScreen</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navFontSizeSm</string>
+			<key>max</key>
+			<real>1.5</real>
+			<key>min</key>
+			<real>0.69999999999999996</real>
+			<key>round</key>
+			<false/>
+			<key>subtitles</key>
+			<array>
+				<string>Specify Font Size in rem</string>
+			</array>
+			<key>title</key>
+			<string>Font Size</string>
+			<key>toolTip</key>
+			<string>Change the Font Size</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>rem</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>fa-chevron-</string>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>baseFA</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>fa-chevron</string>
+					<key>value</key>
+					<string>fa-chevron-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-caret</string>
+					<key>value</key>
+					<string>fa-caret-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-angle</string>
+					<key>value</key>
+					<string>fa-angle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow</string>
+					<key>value</key>
+					<string>fa-arrow-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-chevron-circle</string>
+					<key>value</key>
+					<string>fa-chevron-circle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-caret-square-o</string>
+					<key>value</key>
+					<string>fa-caret-square-o-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-angle-double</string>
+					<key>value</key>
+					<string>fa-angle-double-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow-circle</string>
+					<key>value</key>
+					<string>fa-arrow-circle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow-circle-o</string>
+					<key>value</key>
+					<string>fa-arrow-circle-o-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-hand-o</string>
+					<key>value</key>
+					<string>fa-hand-o-</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Arrow Style</string>
+			<key>toolTip</key>
+			<string>Choose the Arrow Still</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>arrowSize</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Large (33% increase)</string>
+					<key>value</key>
+					<string>fa-lg</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Double</string>
+					<key>value</key>
+					<string>fa-2x</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Triple</string>
+					<key>value</key>
+					<string>fa-3x</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Arrow Size</string>
+			<key>toolTip</key>
+			<string>Choose the Arrow Size</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>clearValue</key>
+			<string></string>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Special Attributes </string>
+			<key>id</key>
+			<string>CustClass</string>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>title</key>
+			<string>Custom Classes</string>
+			<key>toolTip</key>
+			<string>add custom classes, No quotes, separate by space.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Navigation</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://rapidstacks.com</string>
+	<key>inline</key>
+	<true/>
+	<key>libraries</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Font Awesome</string>
+		</dict>
+	</array>
+	<key>subtitle</key>
+	<string>Horizontal  Scrolling Navigation </string>
+	<key>tags</key>
+	<array>
+		<string>Horizontal</string>
+		<string>Navigation</string>
+		<string>Rapidstacks</string>
+		<string>Scrolling</string>
+	</array>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>navigationscrollingEach.html</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>html</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>navigationscrollingEach.css</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>navigationscrollingPage.css</string>
+			<key>scope</key>
+			<string>page</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>navigationscrollingEach.js</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>js</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Navigation Scrolling</string>
+</dict>
+</plist>

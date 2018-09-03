@@ -1,0 +1,69 @@
+/* -- Start Navigationscrolling Page css Template -- */
+/* nav button start */
+.myNavButton {
+    font-size: 1.0rem;
+    border: none;
+    padding: .5rem;
+}
+
+.myNavButton-right {
+    margin-left: .7rem;
+}
+
+.myNavButton-left {
+    margin-right: .7rem;
+}
+
+
+.invisible {
+    visibility: hidden !important;
+}
+
+/* nav button end */
+/* scrolling <nav> start */
+.myScrollingNav {
+    display: flex;
+    justify-content: center;
+    margin: .2rem 0;
+    /* height: 2rem; */
+}
+
+.myScrollingUL {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    %%[[if !edit]]%% 
+    /* height: 2rem; */
+    %%[[endif]]%%
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+.myScrollingUL::-webkit-scrollbar {
+    display: none;
+}
+
+.myScrollingUL>li {
+    display: inline-flex;
+    flex: 0 0 auto;
+    %%[[if edit]]%% 
+    margin-bottom: 1rem;
+    %%[[endif]]%%
+}
+
+.myScrollingUL a {
+    width: 100%;
+    margin-top: auto;
+    padding: 0 .5rem;
+    margin-bottom: auto;
+    display: inline-block;
+}
+.navSamePage span {
+    padding: 0 .5rem;
+    margin: auto;
+}
+/* scrolling <nav> end */
+/* -- End Navigationscrolling Page css Template -- */

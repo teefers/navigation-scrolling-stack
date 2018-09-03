@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.rapidstacks.navitemlink</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>Rapid Stacks</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://rapidstacks.com</string>
+	<key>author</key>
+	<string>Rapid Stacks</string>
+	<key>copyright</key>
+	<string>Copyright @2018 Rapid Stacks</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>clearValue</key>
+			<string></string>
+			<key>default</key>
+			<string>Display Name</string>
+			<key>group</key>
+			<string>Nav Item</string>
+			<key>id</key>
+			<string>displayName</string>
+			<key>subtitles</key>
+			<array>
+				<string>Subtitle</string>
+			</array>
+			<key>title</key>
+			<string>Display Name</string>
+			<key>toolTip</key>
+			<string>enter name to appera in navigation</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<array>
+				<true/>
+				<false/>
+			</array>
+			<key>falseValue</key>
+			<array>
+				<false/>
+				<false/>
+			</array>
+			<key>group</key>
+			<string>Nav Item</string>
+			<key>id</key>
+			<string>URLtype</string>
+			<key>radio</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string>URL Link</string>
+				<string>Same Page</string>
+			</array>
+			<key>title</key>
+			<string>Item Type</string>
+			<key>toolTip</key>
+			<string>Use a URL to another page or scroll to another point on this page.</string>
+			<key>trueValue</key>
+			<array>
+				<true/>
+				<true/>
+			</array>
+			<key>type</key>
+			<string>checkbox-2</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>URLtype</string>
+				<key>index</key>
+				<integer>0</integer>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Nav Item</string>
+			<key>id</key>
+			<string>pageAnchor</string>
+			<key>title</key>
+			<string>Page Link</string>
+			<key>toolTip</key>
+			<string>Link to another page or URL</string>
+			<key>type</key>
+			<string>link</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>URLtype</string>
+				<key>index</key>
+				<integer>0</integer>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>falseValue</key>
+			<string></string>
+			<key>group</key>
+			<string>Nav Item</string>
+			<key>id</key>
+			<string>navActive</string>
+			<key>title</key>
+			<string>Force to Active?</string>
+			<key>toolTip</key>
+			<string>Force Mark this as active(current page) for styling</string>
+			<key>trueValue</key>
+			<string> active</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>clearValue</key>
+			<string></string>
+			<key>default</key>
+			<string></string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>URLtype</string>
+				<key>index</key>
+				<integer>1</integer>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Nav Item</string>
+			<key>id</key>
+			<string>anchorID</string>
+			<key>subtitles</key>
+			<array>
+				<string>Enter id W/O #</string>
+			</array>
+			<key>title</key>
+			<string>ID of Anchor #</string>
+			<key>toolTip</key>
+			<string>enter the ID of where to scroll to.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>clearValue</key>
+			<string></string>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Special Attributes </string>
+			<key>id</key>
+			<string>CustClass</string>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>title</key>
+			<string>Custom Classes</string>
+			<key>toolTip</key>
+			<string>add custom classes, No quotes, separate by space.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>navigation</string>
+	<key>helpURL</key>
+	<string>http://rapidstacks.com</string>
+	<key>hidden</key>
+	<true/>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://rapidstacks.com</string>
+	<key>inline</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Navigation Item Link</string>
+	<key>tags</key>
+	<array>
+		<string>navigation</string>
+		<string>Item</string>
+		<string>Link</string>
+		<string>Rapidstacks</string>
+		<string>teefers</string>
+	</array>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>navitemlinkEach.html</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>html</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>navitemlinkEach.css</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Nav Item Link</string>
+</dict>
+</plist>
