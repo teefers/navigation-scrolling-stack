@@ -5,15 +5,17 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.rapidstacks.navitemlink</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>101</string>
 	<key>RWAddonAuthor</key>
 	<string>Rapid Stacks</string>
 	<key>RWAddonManagerIconAsset</key>
 	<string>icon</string>
 	<key>RWAddonSupportURL</key>
-	<string>http://rapidstacks.com</string>
+	<string>https://rapidstacks.com/support/</string>
+	<key>SUFeedURL</key>
+	<string>https://rapidstacks.com/appcast/appcast.php</string>
 	<key>author</key>
 	<string>Rapid Stacks</string>
 	<key>copyright</key>
@@ -43,8 +45,8 @@
 		<dict>
 			<key>default</key>
 			<array>
-				<true/>
 				<false/>
+				<true/>
 			</array>
 			<key>falseValue</key>
 			<array>
@@ -59,8 +61,8 @@
 			<true/>
 			<key>subtitles</key>
 			<array>
-				<string>URL Link</string>
 				<string>Same Page</string>
+				<string>URL Link</string>
 			</array>
 			<key>title</key>
 			<string>Item Type</string>
@@ -177,23 +179,23 @@
 	<key>group</key>
 	<string>navigation</string>
 	<key>helpURL</key>
-	<string>http://rapidstacks.com</string>
+	<string>https://rapidstacks.com/</string>
 	<key>hidden</key>
 	<true/>
 	<key>icon</key>
 	<string>icon</string>
 	<key>infoURL</key>
-	<string>http://rapidstacks.com</string>
+	<string>https://rapidstacks.com/</string>
 	<key>inline</key>
 	<true/>
 	<key>subtitle</key>
 	<string>Navigation Item Link</string>
 	<key>tags</key>
 	<array>
-		<string>navigation</string>
 		<string>Item</string>
 		<string>Link</string>
 		<string>Rapidstacks</string>
+		<string>navigation</string>
 		<string>teefers</string>
 	</array>
 	<key>templates</key>

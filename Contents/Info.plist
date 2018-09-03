@@ -5,13 +5,17 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.rapidstacks.navigationscrolling</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>101</string>
 	<key>RWAddonAuthor</key>
 	<string>Rapid Stacks</string>
 	<key>RWAddonManagerIconAsset</key>
 	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>https://rapidstacks.com/support/</string>
+	<key>SUFeedURL</key>
+	<string>https://rapidstacks.com/appcast/appcast.php</string>
 	<key>author</key>
 	<string>Rapid Stacks</string>
 	<key>copyright</key>
@@ -608,10 +612,12 @@
 	</array>
 	<key>group</key>
 	<string>Navigation</string>
+	<key>helpURL</key>
+	<string>https://rapidstacks.com/</string>
 	<key>icon</key>
 	<string>icon</string>
 	<key>infoURL</key>
-	<string>http://rapidstacks.com</string>
+	<string>https://rapidstacks.com/</string>
 	<key>inline</key>
 	<true/>
 	<key>libraries</key>
