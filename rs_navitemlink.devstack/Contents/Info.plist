@@ -14,8 +14,6 @@
 	<string>icon</string>
 	<key>RWAddonSupportURL</key>
 	<string>https://rapidstacks.com/support/</string>
-	<key>SUFeedURL</key>
-	<string>https://rapidstacks.com/appcast/appcast.php</string>
 	<key>author</key>
 	<string>Rapid Stacks</string>
 	<key>copyright</key>
