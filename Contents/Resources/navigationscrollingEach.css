@@ -55,13 +55,11 @@
 #lbtn-%id%, #rbtn-%id% {
     background-color: %id=arrowColor[0]%;
     color: %id=arrowColor[1]%;
-    
 }
 #rbtn-%id%:hover, #lbtn-%id%:hover {
     background-color: %id=arrowHoverColor[0]%;
     color: %id=arrowHoverColor[1]%;
     cursor: pointer;
-    
 }
 %[if %id=navSmallScreen% ]%
 @media (max-width: 576px) { 
