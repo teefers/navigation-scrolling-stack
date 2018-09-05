@@ -15,7 +15,7 @@
 	<key>RWAddonSupportURL</key>
 	<string>https://rapidstacks.com/support/</string>
 	<key>SUFeedURL</key>
-	<string>https://rapidstacks.com/appcast/appcast.php</string>
+	<string>https://rapidstacks.com/appcast/navigationscrolling/appcast.xml</string>
 	<key>author</key>
 	<string>Rapid Stacks</string>
 	<key>copyright</key>
@@ -243,11 +243,135 @@
 				<string>Text</string>
 			</array>
 			<key>title</key>
-			<string>Active Item Hover</string>
+			<string>Active Hover</string>
 			<key>toolTip</key>
 			<string>Select the colors for active (li)  on hover background and text.</string>
 			<key>type</key>
 			<string>color-2</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>fa-chevron-</string>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>baseFA</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>fa-chevron</string>
+					<key>value</key>
+					<string>fa-chevron-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-caret</string>
+					<key>value</key>
+					<string>fa-caret-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-angle</string>
+					<key>value</key>
+					<string>fa-angle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow</string>
+					<key>value</key>
+					<string>fa-arrow-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-chevron-circle</string>
+					<key>value</key>
+					<string>fa-chevron-circle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-caret-square-o</string>
+					<key>value</key>
+					<string>fa-caret-square-o-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-angle-double</string>
+					<key>value</key>
+					<string>fa-angle-double-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow-circle</string>
+					<key>value</key>
+					<string>fa-arrow-circle-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-arrow-circle-o</string>
+					<key>value</key>
+					<string>fa-arrow-circle-o-</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>fa-hand-o</string>
+					<key>value</key>
+					<string>fa-hand-o-</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Arrow Style</string>
+			<key>toolTip</key>
+			<string>Choose the Arrow Still</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>arrowSize</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Large (33% increase)</string>
+					<key>value</key>
+					<string>fa-lg</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Double</string>
+					<key>value</key>
+					<string>fa-2x</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Triple</string>
+					<key>value</key>
+					<string>fa-3x</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Arrow Size</string>
+			<key>toolTip</key>
+			<string>Choose the Arrow Size</string>
+			<key>type</key>
+			<string>select</string>
 		</dict>
 		<dict>
 			<key>default</key>
@@ -287,7 +411,7 @@
 			<key>max</key>
 			<integer>60</integer>
 			<key>min</key>
-			<integer>40</integer>
+			<integer>30</integer>
 			<key>snap</key>
 			<true/>
 			<key>subtitles</key>
@@ -464,130 +588,6 @@
 			<string>number</string>
 			<key>units</key>
 			<string>rem</string>
-		</dict>
-		<dict>
-			<key>group</key>
-			<string>Navigation Scrolling Settings</string>
-			<key>type</key>
-			<string>divider</string>
-		</dict>
-		<dict>
-			<key>default</key>
-			<string>fa-chevron-</string>
-			<key>group</key>
-			<string>Navigation Scrolling Settings</string>
-			<key>id</key>
-			<string>baseFA</string>
-			<key>items</key>
-			<array>
-				<dict>
-					<key>title</key>
-					<string>fa-chevron</string>
-					<key>value</key>
-					<string>fa-chevron-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-caret</string>
-					<key>value</key>
-					<string>fa-caret-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-angle</string>
-					<key>value</key>
-					<string>fa-angle-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-arrow</string>
-					<key>value</key>
-					<string>fa-arrow-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-chevron-circle</string>
-					<key>value</key>
-					<string>fa-chevron-circle-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-caret-square-o</string>
-					<key>value</key>
-					<string>fa-caret-square-o-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-angle-double</string>
-					<key>value</key>
-					<string>fa-angle-double-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-arrow-circle</string>
-					<key>value</key>
-					<string>fa-arrow-circle-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-arrow-circle-o</string>
-					<key>value</key>
-					<string>fa-arrow-circle-o-</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>fa-hand-o</string>
-					<key>value</key>
-					<string>fa-hand-o-</string>
-				</dict>
-			</array>
-			<key>title</key>
-			<string>Arrow Style</string>
-			<key>toolTip</key>
-			<string>Choose the Arrow Still</string>
-			<key>type</key>
-			<string>select</string>
-		</dict>
-		<dict>
-			<key>default</key>
-			<string></string>
-			<key>group</key>
-			<string>Navigation Scrolling Settings</string>
-			<key>id</key>
-			<string>arrowSize</string>
-			<key>items</key>
-			<array>
-				<dict>
-					<key>title</key>
-					<string>Normal</string>
-					<key>value</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>Large (33% increase)</string>
-					<key>value</key>
-					<string>fa-lg</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>Double</string>
-					<key>value</key>
-					<string>fa-2x</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>Triple</string>
-					<key>value</key>
-					<string>fa-3x</string>
-				</dict>
-			</array>
-			<key>title</key>
-			<string>Arrow Size</string>
-			<key>toolTip</key>
-			<string>Choose the Arrow Size</string>
-			<key>type</key>
-			<string>select</string>
 		</dict>
 		<dict>
 			<key>clearValue</key>
