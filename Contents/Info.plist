@@ -431,6 +431,62 @@
 		</dict>
 		<dict>
 			<key>default</key>
+			<integer>48</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navItemPad</string>
+			<key>max</key>
+			<integer>72</integer>
+			<key>min</key>
+			<integer>16</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>15</integer>
+			<key>title</key>
+			<string>Item x Padding</string>
+			<key>toolTip</key>
+			<string>Enter the Horizontal (x-axis)  L &amp; R padding for each item</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>3</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navItemDivdWidth</string>
+			<key>max</key>
+			<integer>5</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>7</integer>
+			<key>title</key>
+			<string>Divider Width</string>
+			<key>toolTip</key>
+			<string>Enter the width in px for the Divide</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
 			<real>1</real>
 			<key>group</key>
 			<string>Navigation Scrolling Settings</string>
@@ -551,6 +607,62 @@
 			<string>Bar Height</string>
 			<key>toolTip</key>
 			<string>Enter the max height for navigation bar.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>48</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navItemPadSm</string>
+			<key>max</key>
+			<integer>72</integer>
+			<key>min</key>
+			<integer>16</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>15</integer>
+			<key>title</key>
+			<string>Item x Padding</string>
+			<key>toolTip</key>
+			<string>Enter the Horizontal (x-axis)  L &amp; R padding for each item</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>3</integer>
+			<key>group</key>
+			<string>Navigation Scrolling Settings</string>
+			<key>id</key>
+			<string>navItemDivdWidthSm</string>
+			<key>max</key>
+			<integer>5</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>7</integer>
+			<key>title</key>
+			<string>Divider Width</string>
+			<key>toolTip</key>
+			<string>Enter the width in px for the Divide</string>
 			<key>type</key>
 			<string>slider</string>
 			<key>units</key>

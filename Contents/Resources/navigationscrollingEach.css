@@ -30,7 +30,8 @@
 }
 %[endif]%
 #ul-%id% li{
-    border-right: 3px solid %id=dividColor%;
+    border-right: %id=navItemDivdWidth%px solid %id=dividColor%;
+    /* flex: 0 0 auto; */
     background-color: %id=itemColor[0]%; 
     min-width: %id=navMinWidth%px; 
     color: %id=itemColor[1]%;
@@ -47,6 +48,10 @@
 #ul-%id% a {
     color: %id=itemColor[1]%;
     font-size: %id=navFontSize%rem;
+    padding: 0 %id=navItemPad%px;
+}
+#ul-%id% .navSamePage span {
+    padding: 0 %id=navItemPad%px;
 }
 #ul-%id% a:hover {
     text-decoration: none;
@@ -68,13 +73,18 @@
         font-size: %id=navFontSizeSm%rem;
     }
     #ul-%id% li{
-        min-width: %id=navMinWidthSm%px; 
+        min-width: %id=navMinWidthSm%px;
+        border-right: %id=navItemDivdWidthSm%px solid %id=dividColor%; 
     }
     #ul-%id% li{
         font-size: %id=navFontSizeSm%rem;
     }
     #ul-%id% a {
         font-size: %id=navFontSizeSm%rem;
+        padding: 0 %id=navItemPadSm%px;
+    }
+    #ul-%id% .navSamePage span {
+        padding: 0 %id=navItemPadSm%px;
     }
     
 }

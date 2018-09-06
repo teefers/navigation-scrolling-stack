@@ -31,7 +31,7 @@
 			<string>displayName</string>
 			<key>subtitles</key>
 			<array>
-				<string>Subtitle</string>
+				<string>enter name to display</string>
 			</array>
 			<key>title</key>
 			<string>Display Name</string>
@@ -43,8 +43,8 @@
 		<dict>
 			<key>default</key>
 			<array>
-				<false/>
 				<true/>
+				<false/>
 			</array>
 			<key>falseValue</key>
 			<array>
@@ -53,26 +53,31 @@
 			</array>
 			<key>group</key>
 			<string>Nav Item</string>
+			<key>icons</key>
+			<array>
+				<integer>61582</integer>
+				<integer>61757</integer>
+			</array>
 			<key>id</key>
 			<string>URLtype</string>
 			<key>radio</key>
 			<true/>
 			<key>subtitles</key>
 			<array>
+				<string>Page link</string>
 				<string>Same Page</string>
-				<string>URL Link</string>
 			</array>
 			<key>title</key>
 			<string>Item Type</string>
 			<key>toolTip</key>
-			<string>Use a URL to another page or scroll to another point on this page.</string>
+			<string>Select Padding for all Break points</string>
 			<key>trueValue</key>
 			<array>
 				<true/>
 				<true/>
 			</array>
 			<key>type</key>
-			<string>checkbox-2</string>
+			<string>button-2</string>
 		</dict>
 		<dict>
 			<key>default</key>
