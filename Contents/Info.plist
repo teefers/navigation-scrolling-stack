@@ -5,9 +5,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.rapidstacks.navigationscrolling</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>101</string>
+	<string>100</string>
 	<key>RWAddonAuthor</key>
 	<string>Rapid Stacks</string>
 	<key>RWAddonManagerIconAsset</key>
