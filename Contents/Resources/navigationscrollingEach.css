@@ -4,6 +4,7 @@
     max-height: %id=navMaxHeight%px;
     %%[[endif]]%%
     font-size: %id=navFontSize%rem;
+    padding: 0 %id=navWraperPad%px;
 }
 %[if%id=activeUL%  ]%
 #ul-%id% .active a {

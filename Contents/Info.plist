@@ -5,9 +5,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.rapidstacks.navigationscrolling</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>101</string>
 	<key>RWAddonAuthor</key>
 	<string>Rapid Stacks</string>
 	<key>RWAddonManagerIconAsset</key>
@@ -15,7 +15,7 @@
 	<key>RWAddonSupportURL</key>
 	<string>https://rapidstacks.com/support/</string>
 	<key>SUFeedURL</key>
-	<string>https://rapidstacks.com/appcast/navigationscrolling/appcast.xml</string>
+	<string>https://rapidstacks.com/appcast/rs_navigationscrolling/appcast.xml</string>
 	<key>author</key>
 	<string>Rapid Stacks</string>
 	<key>copyright</key>
@@ -372,6 +372,34 @@
 			<string>Choose the Arrow Size</string>
 			<key>type</key>
 			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>8</integer>
+			<key>group</key>
+			<string>Colors and Styling</string>
+			<key>id</key>
+			<string>navWraperPad</string>
+			<key>max</key>
+			<integer>72</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>snap</key>
+			<true/>
+			<key>subtitles</key>
+			<array>
+				<string> No quotes, separate by space</string>
+			</array>
+			<key>ticks</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Nav x Padding</string>
+			<key>toolTip</key>
+			<string>Enter the Horizontal (x-axis)  L &amp; R padding for the Navigation (whole)</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
 		</dict>
 		<dict>
 			<key>default</key>
