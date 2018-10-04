@@ -15,7 +15,9 @@
     margin-right: .7rem;
 }
 
-
+.myScrollingNav button {
+    min-width:initial!important;
+}
 .invisible {
     visibility: hidden !important;
 }
