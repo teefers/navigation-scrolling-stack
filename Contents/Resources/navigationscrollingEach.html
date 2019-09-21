@@ -1,11 +1,7 @@
-<!-- Start Navigationscrolling Each html Template -->
-
 <nav id="nav-%id%" class="myScrollingNav %[if %("%id=CustClass%" != "" )% ]%%id=CustClass% %[endif]%">
     <button id="lbtn-%id%" class="myNavButton myNavButton-left"><i class="fa %id=baseFA%left %id=arrowSize%" aria-hidden="true"></i></button>
-    <ul id="ul-%id%" role="navigation" class="myScrollingUL">
+    <ul id="ul-%id%" role="menubar" class="myScrollingUL">
         %slice -addTypes="com.rapidstacks.navitemlink" -allowedTypes="com.rapidstacks.navitemlink"%
-        <!-- %slice -addTypes="<stack_id_1>, <stack_id_2>" -allowedTypes="<stack_id_1>, <stack_id_2>" -addInit=<n>% -->
     </ul>
     <button id="rbtn-%id%" class="myNavButton myNavButton-right"><i class="fa %id=baseFA%right %id=arrowSize%" aria-hidden="true"></i></button>
 </nav>
-<!-- End Navigationscrolling Each html Template -->
